@@ -1,1 +1,1 @@
-# klasifikasi-penyakit-daun-timun
+# klasifikasi-penyakit-timun-yogi
