@@ -13,7 +13,7 @@ import gdown
 model_path = "vgg16_timun_model_v2.keras"
 if not os.path.exists(model_path):
     with st.spinner("🔄 Mengunduh model CNN VGG16 (**129 MB**) untuk klasifikasi daun timun..."):
-        file_id = "1C6mMtsdDEx43AHp-8dyxrfrHB9O2IqB0"  # Ganti sesuai ID Google Drive
+        file_id = "1bCuTU3r00jpTF_o8t45dkH6Ok8MEsgNu"  # Ganti sesuai ID Google Drive
         url = f"https://drive.google.com/uc?id={file_id}"
         output = model_path
         gdown.download(url, output, quiet=False)
